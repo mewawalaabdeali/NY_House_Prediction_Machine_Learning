@@ -29,45 +29,31 @@ SHAP Analysis: Analyzing the contribution of each feature to the model’s predi
 Dataset
 The dataset used in this project was sourced from Kaggle. It contains information on housing prices, number of bedrooms, property square footage, and more.
 
-Installation
-Clone the repository:
+https://www.kaggle.com/datasets/nelgiriyewithana/new-york-housing-market
 
-bash
-Copy code
-git clone https://github.com/your-username/repo-name.git
-Install dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
-Download the dataset from Kaggle:
-
-New York Housing Market Dataset
-Run the project in a Jupyter Notebook or Google Colab:
-
-bash
-Copy code
-jupyter notebook
-Project Structure
-bash
-Copy code
-.
-├── data/                     # Raw and cleaned datasets
-├── notebooks/                # Jupyter notebooks for analysis
-├── models/                   # Trained models
-├── README.md                 # Project documentation
-└── requirements.txt          # Required Python packages
 Models and Evaluation
+
 Models Implemented
+
 Linear Regression
+
 Decision Tree
+
 Random Forest
+
 Gradient Boosting
+
 Histogram-Based Gradient Boosting
+
 Evaluation Metrics
+
 R-squared
+
 Mean Absolute Error (MAE)
+
 Mean Squared Error (MSE)
+
 We used K-fold cross-validation with K=5 to ensure robust evaluation.
 
 SHAP Analysis
